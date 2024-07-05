@@ -173,4 +173,3 @@ class PostListView(ListView):
         queryset = self.topic.posts.order_by('created_at')
         return queryset
     
-#12323123
